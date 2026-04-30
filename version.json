@@ -1,0 +1,6 @@
+{
+    "version": "1.0",
+    "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master.exe",
+    "changelog": "Phiên bản đầu tiên tích hợp hệ thống Auto Update.",
+    "force_update": false
+}
