@@ -21,7 +21,7 @@
                 <a href="#pricing">Bảng giá</a>
                 <a href="#contact">Hỗ trợ</a>
             </nav>
-            <a href="https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Giam_Sat_1.0.exe" class="btn-primary-small"><i class="fa-solid fa-download"></i> Tải Về</a>
+            <a id="btn-download-top" href="#" class="btn-primary-small"><i class="fa-solid fa-download"></i> Tải Về</a>
         </div>
     </header>
 
@@ -31,13 +31,13 @@
             <h1>Giải Pháp Tự Động Hóa <br><span class="gradient-text">Mir4 Hoàn Hảo</span></h1>
             <p>Tối ưu hóa thời gian cày cuốc với công nghệ nhận diện hình ảnh AI. Hoạt động ẩn, chống phát hiện 100%, an toàn cho tài khoản của bạn.</p>
             <div class="hero-buttons">
-                <a href="https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Giam_Sat_1.0.exe" class="btn-primary">
+                <a id="btn-download-main" href="#" class="btn-primary">
                     <i class="fa-solid fa-cloud-arrow-down"></i> TẢI XUỐNG NGAY
                 </a>
                 <a href="#features" class="btn-secondary">Tìm Hiểu Thêm</a>
             </div>
             <div class="version-info">
-                <span><i class="fa-solid fa-check-circle"></i> Phiên bản mới nhất</span>
+                <span><i class="fa-solid fa-check-circle"></i> Phiên bản: <strong id="latest-version">đang tải...</strong></span>
                 <span><i class="fa-solid fa-shield-halved"></i> Sạch 100% Virus</span>
             </div>
         </div>
@@ -83,6 +83,24 @@
             </div>
         </div>
     </footer>
+
+    <!-- Script tự động đọc version.json để cập nhật link download -->
+    <script>
+        fetch('version.json')
+            .then(res => res.json())
+            .then(data => {
+                // Cập nhật link tải cho tất cả nút Download
+                const downloadUrl = data.download_url;
+                document.getElementById('btn-download-top').href = downloadUrl;
+                document.getElementById('btn-download-main').href = downloadUrl;
+                
+                // Hiển thị số phiên bản mới nhất
+                document.getElementById('latest-version').textContent = 'v' + data.version;
+            })
+            .catch(() => {
+                document.getElementById('latest-version').textContent = 'Không xác định';
+            });
+    </script>
 
 </body>
 </html>
