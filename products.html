@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Master | Sản Phẩm Tự Động Hóa Mir4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-dragon"></i> AUTO <span>MASTER</span>
+            </a>
+            <nav>
+                <a href="index.html">Trang chủ</a>
+                <a href="products.html" class="active">Sản phẩm</a>
+                <a href="index.html#contact">Hỗ trợ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="products-hero">
+        <div class="container">
+            <h1>Bộ Sưu Tập <span class="gradient-text">Công Cụ Tự Động</span></h1>
+            <p>Chọn công cụ phù hợp với nhu cầu của bạn. Mỗi sản phẩm được thiết kế riêng cho từng tác vụ trong Mir4.</p>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div id="products-grid" class="products-grid">
+                <!-- JS sẽ render product cards ở đây -->
+                <div class="loading-spinner">
+                    <i class="fa-solid fa-spinner fa-spin"></i> Đang tải sản phẩm...
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Detail Modal -->
+    <div id="product-modal" class="modal-overlay" style="display:none;">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div id="modal-body">
+                <!-- JS sẽ render chi tiết ở đây -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2026 Auto Master. All rights reserved.</p>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let productsData = {};
+
+        // Fetch version.json và render trang
+        fetch('version.json')
+            .then(res => res.json())
+            .then(data => {
+                productsData = data.products;
+                renderProductCards(productsData);
+            })
+            .catch(err => {
+                document.getElementById('products-grid').innerHTML = 
+                    '<p style="text-align:center;color:#ff6b6b;">Không thể tải dữ liệu sản phẩm.</p>';
+            });
+
+        function renderProductCards(products) {
+            const grid = document.getElementById('products-grid');
+            grid.innerHTML = '';
+
+            for (const [key, product] of Object.entries(products)) {
+                const isComingSoon = product.coming_soon === true;
+                const lowestPrice = product.pricing.monthly.price;
+                
+                const card = document.createElement('div');
+                card.className = 'product-card' + (isComingSoon ? ' coming-soon' : '');
+                
+                card.innerHTML = `
+                    <div class="card-glow"></div>
+                    ${isComingSoon ? '<div class="badge-coming-soon">Sắp Ra Mắt</div>' : ''}
+                    <div class="card-icon">
+                        ${key === 'auto_giam_sat' ? '<i class="fa-solid fa-tower-broadcast"></i>' : 
+                          key === 'auto_master' ? '<i class="fa-solid fa-robot"></i>' : 
+                          '<i class="fa-solid fa-gear"></i>'}
+                    </div>
+                    <h3 class="card-title">${product.name}</h3>
+                    <p class="card-version">Phiên bản: v${product.version}</p>
+                    <p class="card-desc">${product.description}</p>
+                    <div class="card-price">
+                        ${isComingSoon ? '<span class="price-tag">Đang phát triển</span>' : 
+                          `<span class="price-tag">Từ ${lowestPrice}/tháng</span>`}
+                    </div>
+                    <div class="card-actions">
+                        ${isComingSoon ? 
+                          `<button class="btn-detail" disabled>
+                              <i class="fa-solid fa-clock"></i> Coming Soon
+                          </button>` :
+                          `<button class="btn-detail" onclick="openModal('${key}')">
+                              <i class="fa-solid fa-eye"></i> Xem Chi Tiết
+                          </button>
+                          <a href="${product.download_url}" class="btn-download-card">
+                              <i class="fa-solid fa-download"></i> Tải Về
+                          </a>`}
+                    </div>
+                `;
+                grid.appendChild(card);
+            }
+        }
+
+        function openModal(productKey) {
+            const product = productsData[productKey];
+            if (!product) return;
+
+            const modal = document.getElementById('product-modal');
+            const body = document.getElementById('modal-body');
+
+            const featuresHTML = product.features.map(f => 
+                `<li><i class="fa-solid fa-check"></i> ${f}</li>`
+            ).join('');
+
+            const screenshotHTML = product.screenshot ? 
+                `<div class="modal-screenshot">
+                    <img src="${product.screenshot}" alt="${product.name}" />
+                </div>` : '';
+
+            body.innerHTML = `
+                <div class="modal-header">
+                    <div class="modal-icon">
+                        ${productKey === 'auto_giam_sat' ? '<i class="fa-solid fa-tower-broadcast"></i>' : 
+                          '<i class="fa-solid fa-robot"></i>'}
+                    </div>
+                    <div>
+                        <h2>${product.name}</h2>
+                        <span class="modal-version">v${product.version} • ${product.changelog}</span>
+                    </div>
+                </div>
+
+                ${screenshotHTML}
+
+                <div class="modal-section">
+                    <h3><i class="fa-solid fa-bolt"></i> Cơ Chế Hoạt Động</h3>
+                    <p>${product.description}</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3><i class="fa-solid fa-star"></i> Tính Năng Nổi Bật</h3>
+                    <ul class="features-list">${featuresHTML}</ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3><i class="fa-solid fa-tags"></i> Bảng Giá</h3>
+                    <div class="pricing-grid">
+                        ${renderPricingCards(product.pricing)}
+                    </div>
+                </div>
+
+                <div class="modal-actions">
+                    <a href="${product.download_url}" class="btn-download-modal">
+                        <i class="fa-solid fa-cloud-arrow-down"></i> Tải Xuống Ngay
+                    </a>
+                </div>
+            `;
+
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function renderPricingCards(pricing) {
+            const plans = [
+                { key: 'monthly', icon: 'fa-calendar-day', label: '1 Tháng' },
+                { key: 'semi_annual', icon: 'fa-calendar-week', label: '6 Tháng' },
+                { key: 'annual', icon: 'fa-calendar', label: '1 Năm' }
+            ];
+            
+            return plans.map(plan => {
+                const p = pricing[plan.key];
+                const isPopular = plan.key === 'semi_annual';
+                return `
+                    <div class="pricing-card ${isPopular ? 'popular' : ''}">
+                        ${isPopular ? '<div class="popular-badge">Phổ biến</div>' : ''}
+                        ${p.badge ? `<div class="save-badge">${p.badge}</div>` : ''}
+                        <div class="pricing-icon"><i class="fa-solid ${plan.icon}"></i></div>
+                        <div class="pricing-duration">${p.duration}</div>
+                        <div class="pricing-amount">${p.price}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function closeModal() {
+            document.getElementById('product-modal').style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Đóng modal khi click bên ngoài
+        document.getElementById('product-modal').addEventListener('click', function(e) {
+            if (e.target === this) closeModal();
+        });
+
+        // Đóng modal khi bấm ESC
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeModal();
+        });
+    </script>
+
+</body>
+</html>
