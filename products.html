@@ -140,6 +140,17 @@
                     <img src="${product.screenshot}" alt="${product.name}" />
                 </div>` : '';
 
+            const videoHTML = product.video ? 
+                `<div class="modal-section">
+                    <h3><i class="fa-solid fa-play-circle"></i> Video Demo</h3>
+                    <div class="modal-video">
+                        <video controls preload="metadata" poster="${product.screenshot || ''}">
+                            <source src="${product.video}" type="video/mp4">
+                            Trình duyệt không hỗ trợ video.
+                        </video>
+                    </div>
+                </div>` : '';
+
             body.innerHTML = `
                 <div class="modal-header">
                     <div class="modal-icon">
@@ -153,6 +164,8 @@
                 </div>
 
                 ${screenshotHTML}
+
+                ${videoHTML}
 
                 <div class="modal-section">
                     <h3><i class="fa-solid fa-bolt"></i> Cơ Chế Hoạt Động</h3>
