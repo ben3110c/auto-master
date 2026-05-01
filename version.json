@@ -24,25 +24,27 @@
         },
         "auto_master": {
             "name": "Auto Master",
-            "version": "0.0",
-            "download_url": "#",
-            "changelog": "Đang phát triển...",
+            "version": "1.0",
+            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.0.exe",
+            "changelog": "Phiên bản 1.0: Tự động điểm danh Event, Dọn Kho, Cống Hiến Clan, Daily Task, Mua EXP. Hỗ trợ hàng chục tài khoản.",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
             "features": [
-                "Tự động điểm danh hàng ngày",
-                "Chạy nhiệm vụ tự động (Auto Quest)",
-                "Nhận diện hình ảnh bằng AI",
+                "Tự động điểm danh Event hàng ngày",
+                "Dọn kho bán đồ rác tự động",
+                "Cống hiến Clan & Mua EXP 100%",
                 "Hỗ trợ hàng chục tài khoản đồng thời",
-                "Chống phát hiện 100%"
+                "Tự động bật PowerSaver sau khi hoàn thành"
             ],
             "pricing": {
-                "monthly": {"price": "Liên hệ", "duration": "1 tháng"},
-                "semi_annual": {"price": "Liên hệ", "duration": "6 tháng"},
-                "annual": {"price": "Liên hệ", "duration": "1 năm"}
+                "monthly": {"price": "40.000đ", "duration": "1 tháng"},
+                "quarterly": {"price": "115.000đ", "duration": "3 tháng", "badge": "Tiết kiệm 4%"},
+                "semi_annual": {"price": "230.000đ", "duration": "6 tháng", "badge": "Tiết kiệm 4%"},
+                "annual": {"price": "450.000đ", "duration": "1 năm", "badge": "Tiết kiệm 6%"},
+                "lifetime": {"price": "1.500.000đ", "duration": "Vĩnh viễn", "badge": "🔥 Best Value"}
             },
-            "screenshot": null,
-            "coming_soon": true
+            "screenshot": "auto_master_screenshot.png",
+            "video_youtube_id": "YnnO42OdYks"
         }
     }
 }
