@@ -388,6 +388,21 @@
     box-shadow: 0 10px 30px rgba(0, 200, 167, 0.35);
 }
 
+/* Video Player */
+.modal-video {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(100, 116, 139, 0.2);
+    background: #000;
+}
+.modal-video video {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 360px;
+    object-fit: contain;
+}
+
 /* Nav active */
 nav a.active {
     color: #00ffcc;
