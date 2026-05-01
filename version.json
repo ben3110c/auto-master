@@ -20,7 +20,7 @@
                 "annual": {"price": "330.000đ", "duration": "1 năm", "badge": "Tiết kiệm 8%"}
             },
             "screenshot": "giam_sat_screenshot.png",
-            "video": "giam_sat_demo.mp4"
+            "video_youtube_id": "xI4ukyDTOWw"
         },
         "auto_master": {
             "name": "Auto Master",
