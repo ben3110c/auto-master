@@ -13,15 +13,14 @@
     <!-- Header -->
     <header>
         <div class="container header-container">
-            <div class="logo">
+            <a href="index.html" class="logo">
                 <i class="fa-solid fa-dragon"></i> AUTO <span>MASTER</span>
-            </div>
+            </a>
             <nav>
-                <a href="#features">Tính năng</a>
-                <a href="#pricing">Bảng giá</a>
+                <a href="index.html" class="active">Trang chủ</a>
+                <a href="products.html">Sản phẩm</a>
                 <a href="#contact">Hỗ trợ</a>
             </nav>
-            <a id="btn-download-top" href="#" class="btn-primary-small"><i class="fa-solid fa-download"></i> Tải Về</a>
         </div>
     </header>
 
@@ -31,13 +30,13 @@
             <h1>Giải Pháp Tự Động Hóa <br><span class="gradient-text">Mir4 Hoàn Hảo</span></h1>
             <p>Tối ưu hóa thời gian cày cuốc với công nghệ nhận diện hình ảnh AI. Hoạt động ẩn, chống phát hiện 100%, an toàn cho tài khoản của bạn.</p>
             <div class="hero-buttons">
-                <a id="btn-download-main" href="#" class="btn-primary">
-                    <i class="fa-solid fa-cloud-arrow-down"></i> TẢI XUỐNG NGAY
+                <a href="products.html" class="btn-primary">
+                    <i class="fa-solid fa-boxes-stacked"></i> XEM SẢN PHẨM
                 </a>
                 <a href="#features" class="btn-secondary">Tìm Hiểu Thêm</a>
             </div>
             <div class="version-info">
-                <span><i class="fa-solid fa-check-circle"></i> Phiên bản: <strong id="latest-version">đang tải...</strong></span>
+                <span><i class="fa-solid fa-cubes"></i> <strong id="product-count">...</strong> sản phẩm</span>
                 <span><i class="fa-solid fa-shield-halved"></i> Sạch 100% Virus</span>
             </div>
         </div>
@@ -84,21 +83,15 @@
         </div>
     </footer>
 
-    <!-- Script tự động đọc version.json để cập nhật link download -->
     <script>
         fetch('version.json')
             .then(res => res.json())
             .then(data => {
-                // Cập nhật link tải cho tất cả nút Download
-                const downloadUrl = data.download_url;
-                document.getElementById('btn-download-top').href = downloadUrl;
-                document.getElementById('btn-download-main').href = downloadUrl;
-                
-                // Hiển thị số phiên bản mới nhất
-                document.getElementById('latest-version').textContent = 'v' + data.version;
+                const count = Object.keys(data.products).length;
+                document.getElementById('product-count').textContent = count;
             })
             .catch(() => {
-                document.getElementById('latest-version').textContent = 'Không xác định';
+                document.getElementById('product-count').textContent = '2';
             });
     </script>
 
