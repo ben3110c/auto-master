@@ -1,1 +1,1 @@
-# auto-master_Giám Sát
+# auto-master
