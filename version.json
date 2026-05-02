@@ -3,7 +3,7 @@
         "auto_giam_sat": {
             "name": "Auto Giám Sát",
             "version": "1.0",
-            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Giam_Sat_1.0.exe",
+            "download_url": "https://github.com/ben3110c/auto-giamsat/releases/latest/download/Auto_Giam_Sat_1.0.exe",
             "changelog": "Bản cập nhật 1.0: Thêm tính năng Auto Update cho Tool Giám Sát.",
             "force_update": false,
             "description": "Giám sát rớt mạng 24/7 cho game Mir4. Tự động phát hiện khi tài khoản bị mất kết nối và đánh dấu trạng thái ngay lập tức.",
