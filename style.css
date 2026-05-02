@@ -181,6 +181,15 @@ nav a:hover {
     margin-right: 6px;
 }
 
+.highlight-badge {
+    color: #ffd93d;
+    font-weight: 600;
+}
+
+.highlight-badge i {
+    color: #ffd93d;
+}
+
 .hero-glow {
     position: absolute;
     top: 50%;
