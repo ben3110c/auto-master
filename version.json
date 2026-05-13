@@ -24,13 +24,14 @@
         },
         "auto_master": {
             "name": "Auto Master",
-            "version": "1.0",
-            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.0.exe",
-            "changelog": "Phiên bản 1.0: Tự động điểm danh Event, Dọn Kho, Cống Hiến Clan, Daily Task, Mua EXP. Hỗ trợ hàng chục tài khoản.",
+            "version": "1.1",
+            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.1.zip",
+            "changelog": "Phiên bản 1.1: Tích hợp module Magic Square hoàn chỉnh. Tối ưu dung lượng siêu nhẹ (giảm 80%), xóa lỗi thiếu thư viện và ổn định tiến trình ngầm.",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
             "features": [
                 "Tự động điểm danh Event hàng ngày",
+                "Tự động Auto Train trong Magic Square (1F-11F)",
                 "Dọn kho bán đồ rác tự động",
                 "Cống hiến Clan & Mua EXP 100%",
                 "Hỗ trợ hàng chục tài khoản đồng thời",
