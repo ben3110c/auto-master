@@ -25,7 +25,7 @@
         "auto_master": {
             "name": "Auto Master",
             "version": "1.2",
-            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.2_Final.zip",
+            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.2_Protected.zip",
             "changelog": "Phiên bản 1.1: Tích hợp module Magic Square hoàn chỉnh. Tối ưu dung lượng siêu nhẹ (giảm 80%), xóa lỗi thiếu thư viện và ổn định tiến trình ngầm.",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
