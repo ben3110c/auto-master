@@ -2,8 +2,8 @@
     "products": {
         "auto_giam_sat": {
             "name": "Auto Giám Sát",
-            "version": "1.0",
-            "download_url": "https://github.com/ben3110c/auto-giamsat/releases/latest/download/Auto_Giam_Sat_1.0.exe",
+            "version": "1.1",
+            "download_url": "https://github.com/ben3110c/auto-giamsat/releases/latest/download/Auto_Master_1.1.zip",
             "changelog": "Bản cập nhật 1.0: Thêm tính năng Auto Update cho Tool Giám Sát.",
             "force_update": false,
             "description": "Giám sát rớt mạng 24/7 cho game Mir4. Tự động phát hiện khi tài khoản bị mất kết nối và đánh dấu trạng thái ngay lập tức.",
@@ -24,8 +24,8 @@
         },
         "auto_master": {
             "name": "Auto Master",
-            "version": "1.1",
-            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.1.zip",
+            "version": "1.2",
+            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.2.zip",
             "changelog": "Phiên bản 1.1: Tích hợp module Magic Square hoàn chỉnh. Tối ưu dung lượng siêu nhẹ (giảm 80%), xóa lỗi thiếu thư viện và ổn định tiến trình ngầm.",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
