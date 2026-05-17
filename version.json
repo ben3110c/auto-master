@@ -24,9 +24,9 @@
         },
         "auto_master": {
             "name": "Auto Master",
-            "version": "1.3",
-            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.3_Protected.zip",
-            "changelog": "Phiên bản 1.3: Cập nhật giá mới và nâng cấp cơ chế xả log (Real-time Flush) giúp chống lỗi trắng file debug trên máy ảo lag/giật. Sửa lỗi đọc máu bằng OCR.",
+            "version": "1.4",
+            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.4_Protected.zip",
+            "changelog": "Phiên bản 1.4: Ra mắt tính năng tự động phát hiện và dọn dẹp bộ nhớ/tiến trình của các bản cài đặt cũ. Tối ưu thuật toán giúp auto cực mượt và giải quyết triệt để lỗi không cập nhật được bản mới trên một số máy.",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
             "features": [
