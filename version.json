@@ -38,11 +38,11 @@
                 "Tự động bật PowerSaver sau khi hoàn thành"
             ],
             "pricing": {
-                "monthly": {"price": "40.000đ", "duration": "1 tháng"},
-                "quarterly": {"price": "115.000đ", "duration": "3 tháng", "badge": "Tiết kiệm 4%"},
-                "semi_annual": {"price": "230.000đ", "duration": "6 tháng", "badge": "Tiết kiệm 4%"},
-                "annual": {"price": "450.000đ", "duration": "1 năm", "badge": "Tiết kiệm 6%"},
-                "lifetime": {"price": "1.500.000đ", "duration": "Vĩnh viễn", "badge": "🔥 Best Value"}
+                "monthly": {"price": "100.000đ", "duration": "1 tháng"},
+                "quarterly": {"price": "285.000đ", "duration": "3 tháng", "badge": "Tiết kiệm 5%"},
+                "semi_annual": {"price": "550.000đ", "duration": "6 tháng", "badge": "Tiết kiệm 8%"},
+                "annual": {"price": "1.100.000đ", "duration": "1 năm", "badge": "Tiết kiệm 8%"},
+                "lifetime": {"price": "2.500.000đ", "duration": "Vĩnh viễn", "badge": "🔥 Best Value"}
             },
             "screenshot": "auto_master_screenshot.png",
             "video_youtube_id": "YnnO42OdYks"
