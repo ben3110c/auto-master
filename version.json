@@ -24,9 +24,9 @@
         },
         "auto_master": {
             "name": "Auto Master",
-            "version": "1.4",
-            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.4_Protected.zip",
-            "changelog": "Phiên bản 1.4: Ra mắt tính năng tự động phát hiện và dọn dẹp bộ nhớ/tiến trình của các bản cài đặt cũ. Tối ưu thuật toán giúp auto cực mượt và giải quyết triệt để lỗi không cập nhật được bản mới trên một số máy.",
+            "version": "1.5",
+            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.5_Protected.zip",
+            "changelog": "Phiên bản 1.5: Ra mắt tính năng Supply Run (Chỉ vào Magic Square mua máu/mana rồi tự động thoát ra để cắm chuột tiếp ở bãi cũ). Tối ưu hệ thống dọn dẹp tiến trình rác cực mạnh.",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
             "features": [
