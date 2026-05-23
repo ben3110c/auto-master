@@ -69,8 +69,8 @@
     <script>
         let productsData = {};
 
-        // Fetch version.json và render trang
-        fetch('version.json')
+        // Fetch version.json và render trang (thêm cache buster để luôn lấy bản mới nhất)
+        fetch('version.json?v=' + new Date().getTime())
             .then(res => res.json())
             .then(data => {
                 productsData = data.products;
