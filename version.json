@@ -24,9 +24,9 @@
         },
         "auto_master": {
             "name": "Auto Master",
-            "version": "1.7",
-            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.7_Protected.zip",
-            "changelog": "Phiên bản 1.7: Tối ưu hoá cực hạn tốc độ di chuyển chuột và các khoảng chờ khi chạy 40 tab Điểm danh, giúp giảm tới 50% thời gian chạy tổng thể.",
+            "version": "1.8",
+            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.8_Protected.zip",
+            "changelog": "Phiên bản 1.8: Thêm cơ chế Wait-Until-Visible cho Auto Master. Khắc phục triệt để lỗi bỏ qua bước (skip step) khi giao diện game tải chậm do thao tác chuột quá nhanh. Giúp Auto chạy mượt mà trên cả các máy cấu hình yếu hoặc bị giật lag.",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
             "features": [
