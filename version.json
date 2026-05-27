@@ -24,9 +24,9 @@
         },
         "auto_master": {
             "name": "Auto Master",
-            "version": "1.6",
-            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.6_Protected.zip",
-            "changelog": "Phiên bản 1.6: Thêm tính năng Đồng bộ cấu hình cho tất cả tài khoản (chọn mục cần đồng bộ qua popup). Sửa cơ chế lưu config không bị mất khi tắt/mở tab game.",
+            "version": "1.7",
+            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.7_Protected.zip",
+            "changelog": "Phiên bản 1.7: Tối ưu hoá cực hạn tốc độ di chuyển chuột và các khoảng chờ khi chạy 40 tab Điểm danh, giúp giảm tới 50% thời gian chạy tổng thể. Game chạy siêu tốc nhưng vẫn an toàn với Anti-cheat nhờ thuật toán Bezier.",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
             "features": [
