@@ -24,9 +24,9 @@
         },
         "auto_master": {
             "name": "Auto Master",
-            "version": "1.8",
-            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.8_Protected.zip",
-            "changelog": "Phiên bản 1.8: Thêm cơ chế Wait-Until-Visible cho Auto Master. Khắc phục triệt để lỗi bỏ qua bước (skip step) khi giao diện game tải chậm do thao tác chuột quá nhanh. Giúp Auto chạy mượt mà trên cả các máy cấu hình yếu hoặc bị giật lag.",
+            "version": "1.9",
+            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.9_Protected.zip",
+            "changelog": "Phiên bản 1.9: Tiếp tục nâng cấp tính năng Wait-Until-Visible cho thuật toán Dọn Kho. Bảng Filter rác sẽ được Auto nhận diện và đợi load xong hoàn toàn 100% mới bắt đầu chọn các mục, loại bỏ hoàn toàn lỗi vấp/nhảy cóc bước trên các máy cấu hình siêu yếu.",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
             "features": [
