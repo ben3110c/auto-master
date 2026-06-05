@@ -24,9 +24,9 @@
         },
         "auto_master": {
             "name": "Auto Master",
-            "version": "1.9",
-            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_1.9_Protected.zip",
-            "changelog": "Phiên bản 1.9: Tiếp tục nâng cấp tính năng Wait-Until-Visible cho thuật toán Dọn Kho. Bảng Filter rác sẽ được Auto nhận diện và đợi load xong hoàn toàn 100% mới bắt đầu chọn các mục, loại bỏ hoàn toàn lỗi vấp/nhảy cóc bước trên các máy cấu hình siêu yếu.",
+            "version": "2.0",
+            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_2.0_Protected.zip",
+            "changelog": "Phiên bản 2.0: Nâng cấp Auto Loging. Ẩn hoàn toàn điều khiển giao diện Qt tránh cướp chuột người dùng. Bổ sung bot thông báo Telegram khi kẹt tab và khi xong tab.",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
             "features": [
