@@ -26,7 +26,7 @@
             "name": "Auto Master",
             "version": "2.0",
             "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_2.0_Protected.zip",
-            "changelog": "Phiên bản 2.0: Nâng cấp Auto Loging. Ẩn hoàn toàn điều khiển giao diện Qt tránh cướp chuột người dùng. Bổ sung bot thông báo Telegram khi kẹt tab và khi xong tab.",
+            "changelog": "Phiên bản 2.0: Nâng cấp Auto Loging.Có Bot Telegram.",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
             "features": [
