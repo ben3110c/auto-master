@@ -24,9 +24,9 @@
         },
         "auto_master": {
             "name": "Auto Master",
-            "version": "2.2",
-            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_2.2_Protected.zip",
-            "changelog": "Phiên bản 2.2: Tích hợp hệ thống Mua VIP Multibox tự động và phá bỏ giới hạn mua Máu/Mana trên 10.000 bình.",
+            "version": "2.3",
+            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_2.3_Protected.zip",
+            "changelog": "Phiên bản 2.3: Cập nhật thuật toán tìm kiếm NPC bằng YOLO chống lỗi kẹt Camera và sửa lỗi Crash do SetForegroundWindow.",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
             "features": [
