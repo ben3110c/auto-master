@@ -15,10 +15,10 @@
                 "Siêu an toàn, chống ban"
             ],
             "pricing": {
-                "monthly": {"price": "40.000đ", "duration": "1 tháng"},
-                "quarterly": {"price": "100.000đ", "duration": "3 tháng", "badge": "Tiết kiệm"},
-                "semi_annual": {"price": "180.000đ", "duration": "6 tháng", "badge": "Tiết kiệm 20%"},
-                "annual": {"price": "300.000đ", "duration": "1 năm", "badge": "🔥 Best Value"}
+                "monthly": {"price": "30.000đ", "duration": "1 tháng"},
+                "quarterly": {"price": "85.000đ", "duration": "3 tháng", "badge": "Tiết kiệm 5k"},
+                "semi_annual": {"price": "170.000đ", "duration": "6 tháng", "badge": "Tiết kiệm 10k"},
+                "annual": {"price": "320.000đ", "duration": "1 năm", "badge": "🔥 Best Value"}
             },
             "screenshot": "auto_don_kho_screenshot.png",
             "video_youtube_id": ""
