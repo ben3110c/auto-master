@@ -6,7 +6,7 @@
             "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v1.0.zip",
             "changelog": "Phiên bản 1.0: Tự động dùng AI nhận diện ô cất/bán đồ.",
             "force_update": false,
-            "description": "Tool tự động dọn kho. Giải phóng túi đồ cực nhanh.",
+            "description": "Tool tự động dọn kho với công nghệ AI Vision (PaddleOCR, YOLO). Giải phóng túi đồ cực nhanh.",
             "features": [
                 "Quét màn hình 100% bằng AI",
                 "Tự động sắp xếp, gộp đồ",

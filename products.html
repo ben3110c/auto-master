@@ -98,6 +98,7 @@
                     <div class="card-icon">
                         ${key === 'auto_giam_sat' ? '<i class="fa-solid fa-tower-broadcast"></i>' : 
                           key === 'auto_master' ? '<i class="fa-solid fa-robot"></i>' : 
+                          key === 'auto_don_kho' ? '<i class="fa-solid fa-box-open"></i>' : 
                           '<i class="fa-solid fa-gear"></i>'}
                     </div>
                     <h3 class="card-title">${product.name}</h3>
@@ -169,6 +170,7 @@
                 <div class="modal-header">
                     <div class="modal-icon">
                         ${productKey === 'auto_giam_sat' ? '<i class="fa-solid fa-tower-broadcast"></i>' : 
+                          productKey === 'auto_don_kho' ? '<i class="fa-solid fa-box-open"></i>' : 
                           '<i class="fa-solid fa-robot"></i>'}
                     </div>
                     <div>
@@ -210,15 +212,19 @@
         }
 
         function renderPricingCards(pricing) {
-            const plans = [
+            const allPlans = [
                 { key: 'monthly', icon: 'fa-calendar-day', label: '1 Tháng' },
+                { key: 'quarterly', icon: 'fa-calendar-days', label: '3 Tháng' },
                 { key: 'semi_annual', icon: 'fa-calendar-week', label: '6 Tháng' },
-                { key: 'annual', icon: 'fa-calendar', label: '1 Năm' }
+                { key: 'annual', icon: 'fa-calendar', label: '1 Năm' },
+                { key: 'lifetime', icon: 'fa-infinity', label: 'Vĩnh viễn' }
             ];
+            
+            const plans = allPlans.filter(p => pricing[p.key]);
             
             return plans.map(plan => {
                 const p = pricing[plan.key];
-                const isPopular = plan.key === 'semi_annual';
+                const isPopular = (plan.key === 'semi_annual' && !pricing['quarterly']) || plan.key === 'quarterly';
                 return `
                     <div class="pricing-card ${isPopular ? 'popular' : ''}">
                         ${isPopular ? '<div class="popular-badge">Phổ biến</div>' : ''}
