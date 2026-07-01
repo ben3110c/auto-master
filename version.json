@@ -4,7 +4,7 @@
             "name": "Auto Dọn Kho",
             "version": "1.1",
             "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v1.1.zip",
-            "changelog": "Phiên bản 1.1: Tích hợp hệ thống Auto Update và sửa lỗi không tìm thấy ảnh nhận diện (tương thích mọi cấu hình máy tính).",
+            "changelog": "Phiên bản 1.1).",
             "force_update": false,
             "description": "Tool tự động dọn kho.",
             "features": [
