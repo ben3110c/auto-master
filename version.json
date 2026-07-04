@@ -2,9 +2,9 @@
     "products": {
         "auto_don_kho": {
             "name": "Auto Dọn Kho",
-            "version": "1.1",
-            "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v1.1.zip",
-            "changelog": "Phiên bản 1.1).",
+            "version": "1.2",
+            "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v1.2.zip",
+            "changelog": "Phiên bản 1.2: Thêm tính năng tự thoát map kín, fix vòng lặp kho đầy (Anti-Loop), và tối ưu phím tắt Shift+2.",
             "force_update": false,
             "description": "Tool tự động dọn kho.",
             "features": [
