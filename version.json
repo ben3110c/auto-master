@@ -2,9 +2,9 @@
     "products": {
         "auto_don_kho": {
             "name": "Auto Dọn Kho",
-            "version": "1.2",
-            "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v1.2.zip",
-            "changelog": "Phiên bản 1.2: Thêm tính năng tự thoát map kín, fix vòng lặp kho đầy (Anti-Loop), và tối ưu phím tắt Shift+2.",
+            "version": "1.3",
+            "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v1.3.zip",
+            "changelog": "Phiên bản 1.3: Thêm tính năng Auto Mật Đạo",
             "force_update": false,
             "description": "Tool tự động dọn kho.",
             "features": [
@@ -12,7 +12,8 @@
                 "Tự động sắp xếp, gộp đồ",
                 "Cất trang bị, NL vào đúng kho",
                 "Phát hiện rác tự động bán",
-                "Siêu an toàn, chống ban"
+                "Siêu an toàn, chống ban",
+                "Auto Mật Đạo , Auto Mua Máu, Theo dõi , ra lệnh trực tiếp quá Bot Telegram"
             ],
             "pricing": {
                 "monthly": {
