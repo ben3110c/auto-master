@@ -1,10 +1,10 @@
 {
     "products": {
         "auto_don_kho": {
-            "name": "Auto Dọn Kho",
-            "version": "1.2",
-            "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v1.2.zip",
-            "changelog": "Phiên bản 1.2: Thêm tính năng tự thoát map kín, fix vòng lặp kho đầy (Anti-Loop), và tối ưu phím tắt Shift+2.",
+            "name": "Auto Dọn Kho All-In-One",
+            "version": "1.4",
+            "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v1.4.zip",
+            "changelog": "Đại Cập Nhật 1.4: \n1. Tích hợp Auto Mật Đạo vào Dọn Kho.\n2. Bổ sung Khóa IPC 3 chiều chống xung đột click chuột.\n3. Nâng cấp thuật toán chống lag khi mua HP/Mana.\n4. Fix triệt để lỗi Access Denied khi Update.",
             "force_update": false,
             "description": "Tool tự động dọn kho.",
             "features": [
@@ -15,10 +15,25 @@
                 "Siêu an toàn, chống ban"
             ],
             "pricing": {
-                "monthly": {"price": "30.000đ", "duration": "1 tháng"},
-                "quarterly": {"price": "85.000đ", "duration": "3 tháng", "badge": "Tiết kiệm 5k"},
-                "semi_annual": {"price": "170.000đ", "duration": "6 tháng", "badge": "Tiết kiệm 10k"},
-                "annual": {"price": "320.000đ", "duration": "1 năm", "badge": "🔥 Best Value"}
+                "monthly": {
+                    "price": "30.000đ",
+                    "duration": "1 tháng"
+                },
+                "quarterly": {
+                    "price": "85.000đ",
+                    "duration": "3 tháng",
+                    "badge": "Tiết kiệm 5k"
+                },
+                "semi_annual": {
+                    "price": "170.000đ",
+                    "duration": "6 tháng",
+                    "badge": "Tiết kiệm 10k"
+                },
+                "annual": {
+                    "price": "320.000đ",
+                    "duration": "1 năm",
+                    "badge": "🔥 Best Value"
+                }
             },
             "screenshot": "auto_don_kho_screenshot.png",
             "video_youtube_id": ""
@@ -38,18 +53,29 @@
                 "Giao diện trực quan, dễ sử dụng"
             ],
             "pricing": {
-                "monthly": {"price": "30.000đ", "duration": "1 tháng"},
-                "semi_annual": {"price": "170.000đ", "duration": "6 tháng", "badge": "Tiết kiệm 10%"},
-                "annual": {"price": "330.000đ", "duration": "1 năm", "badge": "Tiết kiệm 8%"}
+                "monthly": {
+                    "price": "30.000đ",
+                    "duration": "1 tháng"
+                },
+                "semi_annual": {
+                    "price": "170.000đ",
+                    "duration": "6 tháng",
+                    "badge": "Tiết kiệm 10%"
+                },
+                "annual": {
+                    "price": "330.000đ",
+                    "duration": "1 năm",
+                    "badge": "Tiết kiệm 8%"
+                }
             },
             "screenshot": "giam_sat_screenshot.png",
             "video_youtube_id": "xI4ukyDTOWw"
         },
         "auto_master": {
             "name": "Auto Master",
-            "version": "2.7",
-            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_2.7_Protected.zip",
-            "changelog": "Phiên bản 2.7: Cập nhật thêm sự kiện điểm danh mới Booting world Final 14 day.",
+            "version": "2.8",
+            "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_2.8_Protected.zip",
+            "changelog": "Phiên bản 2.8: Cập nhật thêm sự kiện điểm danh mới Blessing of the Seven Stafs 14 day.",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
             "features": [
@@ -61,11 +87,30 @@
                 "Tự động bật PowerSaver sau khi hoàn thành"
             ],
             "pricing": {
-                "monthly": {"price": "130.000đ", "duration": "1 tháng"},
-                "quarterly": {"price": "380.000đ", "duration": "3 tháng", "badge": "Tiết kiệm 5%"},
-                "semi_annual": {"price": "750.000đ", "duration": "6 tháng", "badge": "Tiết kiệm 8%"},
-                "annual": {"price": "1.450.000đ", "duration": "1 năm", "badge": "Tiết kiệm 8%"},
-                "lifetime": {"price": "2.500.000đ", "duration": "Vĩnh viễn", "badge": "🔥 Best Value"}
+                "monthly": {
+                    "price": "130.000đ",
+                    "duration": "1 tháng"
+                },
+                "quarterly": {
+                    "price": "380.000đ",
+                    "duration": "3 tháng",
+                    "badge": "Tiết kiệm 5%"
+                },
+                "semi_annual": {
+                    "price": "750.000đ",
+                    "duration": "6 tháng",
+                    "badge": "Tiết kiệm 8%"
+                },
+                "annual": {
+                    "price": "1.450.000đ",
+                    "duration": "1 năm",
+                    "badge": "Tiết kiệm 8%"
+                },
+                "lifetime": {
+                    "price": "2.500.000đ",
+                    "duration": "Vĩnh viễn",
+                    "badge": "🔥 Best Value"
+                }
             },
             "screenshot": "auto_master_screenshot.png",
             "video_youtube_id": "YnnO42OdYks"
