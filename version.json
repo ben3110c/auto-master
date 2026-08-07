@@ -4,7 +4,7 @@
             "name": "Auto Dọn Kho All-In-One",
             "version": "1.5",
             "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v1.5.zip",
-            "changelog": "🔥 SIÊU CẬP NHẬT 1.5:\n1. [Cứu Hộ] Fix triệt để lỗi kẹt chuột vĩnh viễn (Deadlock) khi bấm Dừng Bot Telegram.\n2. [Auto-Pilot] Bot Mua Máu tự động đọc cấu hình Ares và tự bay lại Mật Đạo ngay sau khi mua xong.\n3. [Mật Đạo] Ép xung độ nhạy AI (0.6) chống mù mờ 100%.\n4. [Hệ Thống] Loại bỏ hoàn toàn rủi ro dính phím (Sticky Alt) trên Windows khi cắm Auto.",
+            "changelog": "🔥 SIÊU CẬP NHẬT 1.5:\n1.  .",
             "force_update": false,
             "description": "Tool tự động dọn kho.",
             "features": [
