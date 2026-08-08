@@ -2,9 +2,9 @@
     "products": {
         "auto_don_kho": {
             "name": "Auto Dọn Kho All-In-One",
-            "version": "1.6",
-            "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v1.6.zip",
-            "changelog": "🔥 Cập nhật 1.6:\n- Tích hợp quay lại Mật Đạo vào Auto Dọn Kho.\n- Fix triệt để lỗi kẹt di chuyển do kẹt phím ALT.",
+            "version": "1.7",
+            "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v1.7.zip",
+            "changelog": "🔥 Cập nhật 1.7:\n- Tối ưu hóa trải nghiệm gia hạn mượt mà (không cần khởi động lại tool).\n- Vá lỗi văng app khi quét mã QR.",
             "force_update": false,
             "description": "Tool tự động dọn kho.",
             "features": [
