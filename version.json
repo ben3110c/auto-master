@@ -4,7 +4,7 @@
             "name": "Auto Dọn Kho All-In-One",
             "version": "1.8",
             "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v1.8.zip",
-            "changelog": "🔥 Cập nhật 1.8:\n- Giao diện (Cứu Hộ): Thêm bảng cảnh báo chống chiếm chuột thông minh (đếm ngược 5s).\n- Mật Đạo: Sửa logic hướng di chuyển chuẩn xác cho map 1_3_E.",
+            "changelog": "🔥 Cập nhật 1.8:\n- Giao diện (cảnh báo): Thêm bảng cảnh báo chống chiếm chuột thông minh (đếm ngược 5s).\n- Mật Đạo: Sửa logic hướng di chuyển chuẩn xác cho map 1_3_E.",
             "force_update": false,
             "description": "Tool tự động dọn kho.",
             "features": [
