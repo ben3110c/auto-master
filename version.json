@@ -2,9 +2,9 @@
     "products": {
         "auto_don_kho": {
             "name": "Auto Dọn Kho All-In-One",
-            "version": "2.0",
-            "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v2.0.zip",
-            "changelog": "🔥 Cập nhật 2.0: khắc phục triệt để lỗi kẹt tiến trình (Click xịt Ares)!",
+            "version": "2.1",
+            "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v2.1.zip",
+            "changelog": "🔥 Cập nhật 2.1: Thêm giáp phòng thủ 3 tầng chống click hụt Ares. Khóa mục tiêu chống rung tay tuyệt đối!",
             "force_update": false,
             "description": "Tool tự động dọn kho.",
             "features": [
