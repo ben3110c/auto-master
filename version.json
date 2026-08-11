@@ -4,7 +4,7 @@
             "name": "Auto Dọn Kho All-In-One",
             "version": "2.2",
             "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v2.2.zip",
-            "changelog": "🔥 Cập nhật 2.2: Đại phẫu Kiến trúc hệ thống, giải quyết triệt để 100% lỗi kẹt chuột Ares (Bóng ma giao diện). Nâng giới hạn cảnh báo tử trận (PK) lên 5 lần/30 phút.",
+            "changelog": "🔥 Cập nhật 2.2: Đại phẫu Kiến trúc hệ thống, giải quyết triệt để 100% lỗi kẹt chuột Ares. Nâng giới hạn cảnh báo tử trận (PK) lên 5 lần/30 phút.",
             "force_update": false,
             "description": "Tool tự động dọn kho.",
             "features": [
