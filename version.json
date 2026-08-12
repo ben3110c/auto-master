@@ -2,9 +2,9 @@
     "products": {
         "auto_don_kho": {
             "name": "Auto Dọn Kho All-In-One",
-            "version": "2.2",
-            "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v2.2.zip",
-            "changelog": "🔥 Cập nhật 2.2: Đại phẫu Kiến trúc hệ thống, giải quyết triệt để 100% lỗi kẹt chuột Ares. Nâng giới hạn cảnh báo tử trận (PK) lên 5 lần/30 phút.",
+            "version": "2.3",
+            "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v2.3.zip",
+            "changelog": "🔥 Cập nhật 2.3: Tái cấu trúc Hệ thống No-Code với thuật toán State-Machine chống click trượt 100%. Nới rộng vùng ngắm bắn, thêm chức năng Quét toàn màn hình và Click mù cứu hộ tự động. Chạy mượt mà bất chấp Game lag!",
             "force_update": false,
             "description": "Tool tự động dọn kho.",
             "features": [
