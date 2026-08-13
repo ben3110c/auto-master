@@ -76,7 +76,7 @@
             "name": "Auto Master",
             "version": "2.9",
             "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_2.9_Protected.zip",
-            "changelog": "Phiên bản 2.9: Nâng cấp cốt lõi - Tích hợp AI IP Hunter tự động đồng bộ phím chuột Unicast. Chạy mượt mà 100% không sợ hỏng mạng dù dùng NAT hay Bridged, tự động hoàn toàn không cần cấu hình!",
+            "changelog": "Phiên bản 2.9: tự động hoàn toàn không cần cấu hình!",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
             "features": [
