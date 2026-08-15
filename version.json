@@ -2,9 +2,9 @@
     "products": {
         "auto_don_kho": {
             "name": "Auto Dọn Kho All-In-One",
-            "version": "2.3",
-            "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v2.3.zip",
-            "changelog": "🔥 Cập nhật 2.3:nâng cấp hệ thông tele mật đạo!",
+            "version": "2.4",
+            "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v2.4.zip",
+            "changelog": "🔥 Cập nhật 2.4: Nâng cấp Mật Đạo, thêm cơ chế Nhường Chuột (IPC) chống kẹt Ares và thêm Timeout an toàn cho YOLO.",
             "force_update": false,
             "description": "Tool tự động dọn kho.",
             "features": [
