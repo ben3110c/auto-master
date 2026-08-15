@@ -4,7 +4,7 @@
             "name": "Auto Dọn Kho All-In-One",
             "version": "2.4",
             "download_url": "https://github.com/ben3110c/auto-don-kho/releases/latest/download/Auto_Don_Kho_Ares_v2.4.zip",
-            "changelog": "🔥 Cập nhật 2.4: Nâng cấp Mật Đạo, thêm cơ chế Nhường Chuột (IPC) chống kẹt Ares và thêm Timeout an toàn cho YOLO.",
+            "changelog": "🔥 Cập nhật 2.4: Nâng cấp Mật Đạo, thêm cơ chế Nhường Chuột chống kẹt Ares và thêm Timeout an toàn cho tele NPC kho.",
             "force_update": false,
             "description": "Tool tự động dọn kho.",
             "features": [
