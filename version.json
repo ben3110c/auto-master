@@ -76,7 +76,7 @@
             "name": "Auto Master",
             "version": "2.9",
             "download_url": "https://github.com/ben3110c/auto-master/releases/latest/download/Auto_Master_2.9_Protected.zip",
-            "changelog": "🔥 Cập nhật 2.9: Vượt rào Anti-Cheat thành công! Auto tự động bóp cửa sổ mượt mà, tích hợp Auto_Mir4_VM_Unified.exe mới siêu an toàn cho máy ảo.",
+            "changelog": "🔥 Cập nhật 2.9.",
             "force_update": false,
             "description": "Bộ công cụ tự động hóa toàn diện cho Mir4. Hỗ trợ điểm danh, làm nhiệm vụ, cày quái và nhiều tính năng khác.",
             "features": [
